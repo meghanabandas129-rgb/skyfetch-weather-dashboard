@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -83,4 +83,34 @@ h1 {
 .weather-icon {
     width: 100px;
     height: 100px;
+}
+.search-box {
+  margin-bottom: 20px;
+}
+
+#city-input {
+  padding: 10px;
+  width: 60%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#search-btn {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #667eea;
+  color: white;
+  cursor: pointer;
+}
+  border: none;
+  background: #667eea;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#search-btn:hover {
+  background: #5a67d8;
 }
